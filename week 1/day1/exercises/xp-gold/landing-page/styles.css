@@ -5,8 +5,8 @@ body {
 }
 
 nav {
-    position: fixed;
-    background-color:rgb(168, 166, 166);
+    position: absolute;
+    background-color:rgb(237, 230, 230);
     z-index: 10;
     left: 0;
     top: 0;

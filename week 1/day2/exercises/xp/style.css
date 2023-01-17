@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav {
+    position: absolute;
+    background-color:rgb(228, 218, 11);
+    z-index: 10;
+    left: 0;
+    top: 0;
+    right: 500px;
+    display: flex;
+    height: 40px;
+}
