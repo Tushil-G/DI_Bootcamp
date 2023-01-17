@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Example 2</title>
+    <style>
+        body {
+            padding: 10px 0 0 0;
+            margin: 0;
+        }
+
+        section {
+            position: relative;
+            width: 300px;
+            background-color: gray;
+            height: 400px;
+        }
+
+        article {
+            background-color: blue;
+            padding: 5px 0 3px 0;
+        }
+
+        .square {
+            width: 50px;
+            height: 50px;
+        }
+
+        .orange {
+            background-color: orange;
+        }
+
+        .orange:hover {
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .abs {
+            position: absolute;
+            left: 125px;
+            top: 175px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .fixed {
+            position: fixed;
+            left: 125px;
+            top: 75px;
+            z-index: 1000000;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <!-- <article>
+            Article
+        </article> -->
+        <div class="square blue fixed"></div>
+        <div class="abs square orange"></div>
+
+    </section>
+</body>
+
+</html>

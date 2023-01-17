@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Example List</title>
+    <style>
+        ul {
+            padding-left: 0;
+            margin: 0 0 0 0;
+            width: 300px;
+            margin-bottom: 50px;
+        }
+
+        li {
+            transition: all linear 300ms;
+            border-radius: 5px;
+            margin-top: 25px;
+            padding: 10px 5px 10px 5px;
+            background-color: chocolate;
+        }
+
+        li:first {
+            margin-top: 0;
+        }
+
+        li:hover {
+            transition: all linear 1000ms;
+            border-radius: 15px;
+            background-color: aqua;
+            cursor: pointer;
+            color: red;
+        }
+
+        li:not(.president) {
+            color: darkgray;
+        }
+
+        .president {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        button {
+            transition: all ease-in-out 200ms;
+            outline: none;
+            background-color: pink;
+            border-color: blueviolet;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        button:active {
+            background-color: aliceblue;
+        }
+
+        button:focus {
+            border: 4px dotted brown;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            Cynthia
+        </li>
+        <li>
+            Chyama
+        </li>
+        <li class="president">
+            Tushil
+        </li>
+        <li>
+            Khavind
+        </li>
+    </ul>
+
+    <button>
+        Trigger
+    </button>
+
+    <button>
+        Cancel
+    </button>
+
+    <a href="https://www.google.com">
+        Got to Google
+    </a>
+    <textarea></textarea>
+</body>
+
+</html>

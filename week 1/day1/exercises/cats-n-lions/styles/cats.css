@@ -1,0 +1,15 @@
+
+
+.highlight {
+    border-radius: 2px;
+    background-color: yellow;
+    padding: 0 2px 0 2px;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+.senses-wrapper {
+    padding-left: 30px;
+}
