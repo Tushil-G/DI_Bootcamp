@@ -1,0 +1,12 @@
+body{position: relative;
+
+left: 7px;
+top:0;
+
+margin: 0;
+
+}
+div{background-color: aqua;
+padding-right: 40%;
+padding-left: 40%;
+justify-self: start;}
