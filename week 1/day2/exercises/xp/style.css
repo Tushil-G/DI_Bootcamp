@@ -10,7 +10,40 @@ nav {
     z-index: 10;
     left: 0;
     top: 0;
-    right: 500px;
-    display: flex;
+    right: 50%;
+    display: block;
     height: 40px;
+}
+.nav-item {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;}
+.nav-left {
+    padding-left: 58%;
+    justify-content: start;
+}
+
+.nav-right {
+    padding-right: 68%;
+    justify-content: end;
+}
+
+.btn-sign-in {
+    height: 35px;
+    background-color: blue
+    ;outline: black;
+    box-shadow: 0 3px #999;
+}
+.btn-sign-in:hover{background-color: aqua
+    ;
+;
+}
+.btn-sign-in:active{
+    background-color: aqua;
+    box-shadow: 0 2px #666
+    ;transform: translateY(4px);
+
+    
+    
+    transition: ease-in-out 20ms;
 }
