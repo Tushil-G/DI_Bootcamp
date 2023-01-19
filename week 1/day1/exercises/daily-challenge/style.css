@@ -1,12 +1,96 @@
-body{position: relative;
+body{
+	padding: 0;
+    margin: 0;
+    
+}
+nav{
+   display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    overflow: hidden;
+}
+.left{
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-family: 'Reem Kufi', sans-serif; 
+}
 
-left: 7px;
-top:0;
-
-margin: 0;
+.right{
+    padding-top: 20px;
+    padding-right: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    
+   position: relative;left: 900px;
 
 }
-div{background-color: aqua;
-padding-right: 40%;
-padding-left: 40%;
-justify-self: start;}
+nav{
+    display:flex ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    overflow: auto;
+}
+b{
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-family: 'Reem Kufi', sans-serif; 
+}
+
+a{
+    padding-top: 20px;
+    margin-left: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    float: left;
+    
+
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 86%;
+    bottom: 0;
+    background-color: black;
+}
+
+img{
+    
+    width:100%;
+    position:absolute;
+    bottom: 0;
+    height: 86%;
+}
+
+.description{
+    z-index: 3;
+    width: 60%;
+    padding-left: 150px;
+    padding-top:175px;
+
+}
+
+.thor{
+font-family: 'Zen Antique', serif;
+font-size: 40px;
+color: white;
+}
+.description-2{font-family: 'Zen Antique', serif;
+color: white;}
+
+
+
+
+

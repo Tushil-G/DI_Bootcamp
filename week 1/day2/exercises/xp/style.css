@@ -4,46 +4,53 @@ body {
     
 }
 
-nav {
-    position: absolute;
-    background-color:rgb(228, 218, 11);
-    z-index: 10;
-    left: 0;
-    top: 0;
-    right: 50%;
-    display: block;
-    height: 40px;
-}
-.nav-item {
-    width: 50%;
+img {
+    width:70px;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  li, a, button {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+  }
+  
+  header {
     display: flex;
-    align-items: flex-end;}
-.nav-left {
-    padding-left: 58%;
-    justify-content: start;
-}
-
-.nav-right {
-    padding-right: 68%;
-    justify-content: end;
-}
-
-.btn-sign-in {
-    height: 35px;
-    background-color: blue
-    ;outline: black;
-    box-shadow: 0 3px #999;
-}
-.btn-sign-in:hover{background-color: aqua
-    ;
-;
-}
-.btn-sign-in:active{
-    background-color: aqua;
-    box-shadow: 0 2px #666
-    ;transform: translateY(4px);
-
-    
-    
-    transition: ease-in-out 20ms;
-}
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+  }
+  
+  .nav__links {
+    list-style: none;
+  }
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  .nav__links li a:hover {
+    color: lightskyblue
+  }
+  
+  button {
+    padding: 9px 25px;
+    background-color: rgb(9, 11, 11);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }

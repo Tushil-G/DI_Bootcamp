@@ -30,7 +30,7 @@ nav{grid-area: b;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 8px;
     align-content: center;
-    position: relative;left: 90px;
+    position: relative;left: 150px;
 
 }
 .item2{height: 50px;
