@@ -1,7 +1,7 @@
 body{
-  margin: 0;
+  margin: 0;}
 
-}
+
 li{
   display: inline
 }
@@ -97,4 +97,16 @@ button:hover{
   background-color: rgb(82, 125, 125);
   transition: ease-in-out ;
 }
-.test{position: relative;left: 1000px;}
+.test{position: relative;left: 1000px;
+text-align: center;
+text-decoration: none;
+position: relative;bottom: 9px ;}
+
+.yellow{background-color: rgb(255, 255, 255);}
+
+
+li{margin-left: 50px;
+position: relative;bottom: 50px;
+text-align: center;}
+.red{width: 600px; height: 550px;
+position: relative;left: 300px;}
