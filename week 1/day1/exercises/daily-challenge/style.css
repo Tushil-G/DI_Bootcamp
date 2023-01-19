@@ -22,7 +22,7 @@ nav{
 }
 
 .right{
-    padding-top: 20px;
+    padding-top: 50px;
     padding-right: 10px;
     color: aliceblue;
     text-decoration: none;
@@ -61,7 +61,7 @@ a{
 .container{
     display: flex;
     width: 100%;
-    height: 86%;
+    height: 20%;
     bottom: 0;
     background-color: black;
 }
@@ -71,7 +71,7 @@ img{
     width:100%;
     position:absolute;
     bottom: 0;
-    height: 86%;
+    height: 90%;
 }
 
 .description{
@@ -89,8 +89,5 @@ color: white;
 }
 .description-2{font-family: 'Zen Antique', serif;
 color: white;}
-
-
-
 
 

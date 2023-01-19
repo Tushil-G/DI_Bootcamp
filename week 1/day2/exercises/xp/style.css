@@ -1,56 +1,100 @@
-body {
-    padding: 0;
-    margin: 0;
-    
+body{
+  margin: 0;
+
+}
+li{
+  display: inline
 }
 
-img {
-    width:70px;
-  }
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+
+
+img{
+  width: 50px;
+  padding-left: 5px;
+
+}
+
+.left{
+   float: right;
+   margin-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 40px;
+   color: white;
+   text-decoration: none;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center; 
+  font-size: 30px;
+}
+body{
+  position: relative;
+}
+
+.row {
+  position: relative;
+  display: flex;
+}
+
+.column {
+  position: relative;
+  flex: 100%; 
+  padding: 5px;
+}
+
+.top-left {
+font-size: 40px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  background-color: bisque;
+  border-radius: 50%;
+}
+
+.top-right{
+  font-size: 40px;
+  position: absolute;
+  top: 17px;
+  left: 130px;
+  background-color: brown;
+  border-radius: 50%;
+}
+
+.description{
   
-  .logo {
-    cursor: pointer;
-  }
-  
-  li, a, button {
-    font-size: 10px;
-    color: white;
-    text-decoration: none;
-    background-color: black;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: black;
-  }
-  
-  .nav__links {
-    list-style: none;
-  }
-  .nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-  }
-  
-  .nav__links li a {
-    transition: all 0.3s ease 0s;
-  }
-  .nav__links li a:hover {
-    color: lightskyblue
-  }
-  
-  button {
-    padding: 9px 25px;
-    background-color: rgb(9, 11, 11);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-  }
-  
-  button:hover {
-    background-color: blue;
-  }
+ text-align: center; 
+ 
+
+}
+
+.price{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+button{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: center;
+}
+
+button:hover{
+  background-color: rgb(82, 125, 125);
+  transition: ease-in-out ;
+}
+.test{position: relative;left: 1000px;}
