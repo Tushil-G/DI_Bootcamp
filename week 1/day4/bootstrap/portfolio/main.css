@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
+.navbar{ background:#4673a1;}
+
+.nav-link, .navbar-brand { color: #f4f4f4; cursor: pointer;}
+
+.nav-link { margin-right: 1em !important;}
+
+.nav-link:hover { background: #f4f4f4; color: #1b1b58; }
+
+.navbar-collapse { justify-content: flex-end;}
+
+.navbar-toggler {  background:#fff !important;}
+
+
+.header {
+	height: 100vh;
+	background-image: url('../images/headerback.jpg');
+ 	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay {
+	position: absolute;
+	min-height: 100vh;
+	min-width: 100vw;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+	color:#2a627c;
+	text-align: left;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #0008f948;
+	background: #1a068e;
+	color:#fff;
+}
+
+section, article{
+	margin: 5em 0;
+	position: relative;
+}
+section h1, article h1{
+	color:#2500db;
+	margin-bottom: 2em;
+}
+
+.about img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+.about span{
+	display: block;
+	position: absolute;
+	left: 115px;
+}
+
+.about .desc {
+	padding: 2em;
+	border-left: solid 4px teal;
+	text-align: justify;
+}
+
+.about .desc h3 {
+	color: teal;
+}
+
+.about .desc p {
+	line-height:2;
+}
+
+.portfolio img {
+	height: 15rem;
+	width: 100%;
+	margin: 1em;
+}
+
+.blog .card{
+	box-shadow: 0 0 20px #ccc;
+}
+
+.blog img {
+	height: 12rem;
+	width: 100%;
+}
+
+.blog .card-title {
+	color: #12054b;
+}
+
+.blog .card-body{
+	padding: 1em;
+}
+
+.team .item {
+	position: relative;
+}
+
+.team .des{
+	background: #140738;
+	color: #fff;
+	text-align: center;
+	border-bottom-left-radius: 93%;
+}
+
+.team .item:hover .des{
+	height: 100%;
+	background:#f973007d;
+	position: absolute;
+	width: 90%;
+	padding: 5em;
+	bottom: 0;
+	border-bottom-left-radius: 0;
+	transition:.3s ease-in-out;
+}
+
+.contact h1 { 
+	padding-top: 2em;
+	text-align: center;
+ }
+
+.contact .form-control::placeholder {
+	color: #888;
+	font-size: 16px;
+}
+
+.contact .btn-secondary {
+	 background:  #1a065b;
+	 color: #fff;
+	 border:0;
+}
+
+address {
+	text-align: center;
+	margin-top: -4em;
+}
+
+address a {
+	color: #06069e;
+}
