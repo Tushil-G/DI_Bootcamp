@@ -12,7 +12,7 @@ const myWatchedSeries1 = ["black mirror", "money heist", "the big bang theory"];
 myWatchedSeries1.splice(2,2,"Friends")
 console.log(myWatchedSeries1)
 //excercise 3
-let temperature = prompt("Temperature:")
+let temperature = prompt("Choose temperature in celcius to be converted into farenheit:")
 let x= (temperature/5)*9+32
 console.log(x+" in temperature°F.")
 //excercise 4
@@ -96,3 +96,61 @@ typeof(1 != 2)
 1 === "1"
 // Prediction:False(1 is not a integer(it is assign as string))
 // Actual:False
+
+
+///last part
+5 + "34"
+// Prediction:
+// Actual:
+
+5 - "4"
+// Prediction:1
+// Actual:1
+
+10 % 5
+// Prediction:0
+// Actual:0
+
+5 % 10
+// Prediction:5
+// Actual:5
+
+"Java" + "Script"
+// Prediction:JavaScript
+// Actual:JavaScript
+
+" " + " "
+// Prediction:space
+// Actual:
+
+" " + 0
+// Prediction: 0
+// Actual:
+
+true + true
+// Prediction:NaN
+// Actual:
+
+true + false
+// Prediction:1
+// Actual:1
+
+false + true
+// Prediction:1
+// Actual:1
+
+false - true
+// Prediction:-1
+// Actual:-1
+
+!true
+// Prediction:0/false
+// Actual:0
+
+3 - 4
+// Prediction:-1
+// Actual:-1
+
+"Bob" - "bill"
+// Prediction:NaN
+// Actual:NaN
