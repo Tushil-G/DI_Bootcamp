@@ -8,9 +8,11 @@ let myWatchedSeriesLength = myWatchedSeries
 console.log("I watched 3 series : "+myWatchedSeriesLength)
 //part 2
 console.log("part 2:")
-const myWatchedSeries1 = ["black mirror", "money heist", "the big bang theory"];
-myWatchedSeries1.splice(2,2,"Friends")
-console.log(myWatchedSeries1)
+    //let myWatchedSeries1 = ["black mirror", "money heist", "the big bang theory"];
+myWatchedSeries.splice(2,2,"Friends","bob")
+myWatchedSeries.splice(0,1)
+myWatchedSeries.reverse()
+console.log(myWatchedSeries)
 //excercise 3
 let temperature = prompt("Choose temperature in celcius to be converted into farenheit:")
 let x= (temperature/5)*9+32
