@@ -10,7 +10,7 @@ console.log("I watched 3 series : "+myWatchedSeriesLength)
 console.log("part 2:")
     //let myWatchedSeries1 = ["black mirror", "money heist", "the big bang theory"];
 myWatchedSeries.splice(2,2,"Friends","bob")
-myWatchedSeries.splice(0,1)
+myWatchedSeries.shift()
 myWatchedSeries.reverse()
 console.log(myWatchedSeries)
 //excercise 3
