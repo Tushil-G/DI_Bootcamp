@@ -125,11 +125,11 @@ typeof(1 != 2)
 
 " " + 0
 // Prediction: 0
-// Actual:
+// Actual: 0
 
 true + true
-// Prediction:NaN
-// Actual:
+// Prediction:2
+// Actual:2
 
 true + false
 // Prediction:1
