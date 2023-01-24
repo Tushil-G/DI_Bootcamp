@@ -21,4 +21,4 @@ console.log('amount of people online: '+users.length)
 if (users.length==0){console.log(" ------no one is online---- ")}
 else if (users.length==1){console.log(users+" online")}
 else if (users.length==2){console.log(users+ " are online")}
-else if (users.length>2){console.log(users.splice(0,2)+" and more are connected")}
+else if (users.length>2){console.log(users.splice(0,2)+" and 3 more are connected")}
