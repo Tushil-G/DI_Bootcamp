@@ -16,9 +16,9 @@ display=parseInt(display)
 if (display% 2 == 0){console.log("Even number")}
 else{console.log("odd number")}
 ////Ecercise 4
-const users = ["bob","john","tom","elpablo","hello"];
+const users = ["bob","john","tom","elpablo","hello","samy"];
 console.log('amount of people online: '+users.length)
 if (users.length==0){console.log(" ------no one is online---- ")}
 else if (users.length==1){console.log(users+" online")}
 else if (users.length==2){console.log(users+ " are online")}
-else if (users.length>2){console.log(users.splice(0,2)+" and 3 more are connected")}
+else if (users.length>2){console.log(users.splice(0,2)+" "+"and "+ users.length+" more are connected")}
