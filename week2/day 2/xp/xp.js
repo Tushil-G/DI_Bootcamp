@@ -13,6 +13,7 @@ else {console.log('I dont care, I prefer cats')}
 //Excercise 3
 let display=prompt("Enter value")
 display=parseInt(display)
+console.log("Number is: ")
 if (display% 2 == 0){console.log("Even number")}
 else{console.log("odd number")}
 ////Ecercise 4
