@@ -40,7 +40,7 @@ const building = {
     },
 }
 console.log(building.numberOfFloors)
-console.log("Number of apartments available " + building.numberOfAptByFloor['firstFloor']+" , "+building.numberOfAptByFloor['thirdFloor'])
+console.log("Number of apartments available: " + building.numberOfAptByFloor['firstFloor']+" , "+building.numberOfAptByFloor['thirdFloor'])
 console.log("Second tenant: "+building.nameOfTenants[1]+" , "+" number of rooms: "+building.numberOfRoomsAndRent['dan'][0])
 if (building.numberOfRoomsAndRent['sarah'][1]+building.numberOfRoomsAndRent['david'][1]>1000){building.numberOfRoomsAndRent['dan'][1]=1200}
 console.log(building.numberOfRoomsAndRent)
