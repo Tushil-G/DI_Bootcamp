@@ -8,7 +8,7 @@ while (count>0){
     console.log(num)}
 function loop(count,numberTakeDown){
     if(numberTakeDown>count-numberTakeDown){numberTakeDown=count}
-let num=`We start the song ${count} at ${Bottle_bottles(count)}
+let num=`We start the song at ${count} ${Bottle_bottles(count)}
 -> Take _${numberTakeDown}_ down, pass ${them_it(count-numberTakeDown)} around
 -> we have now ${count-numberTakeDown} ${Bottle_bottles(count-numberTakeDown)}`
 return num}
