@@ -22,7 +22,7 @@ for (let planets of planetArray) {
     for (let i = 0; i < planets.moon; i++) {
         const moonDiv = document.createElement("div")
         moonDiv.classList.add('moon')
-        moonDiv.style.left=i*10+'px'
+        moonDiv.style.left=i*12+'px'
         divelement.appendChild(moonDiv)
     }
     const section = document.querySelector(".listPlanets");
