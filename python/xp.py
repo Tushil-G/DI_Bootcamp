@@ -1,8 +1,5 @@
 #excercise_1
-print("Hello word")
-print("Hello word")
-print("Hello word")
-print("Hello word")
+print("Hello word "* 4)
 #ecercise_2
 x=99
 print((x^3)*8)
