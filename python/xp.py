@@ -8,7 +8,7 @@ x=99
 print((x^3)*8)
 #excercise 3
 5 < 3 # false/0
-3 == 3 # true/0
+3 == 3 # true/1
 3 == "3" # false/0
 # "3" > 3# false/0
 #"Hello" == "hello"#false/0
