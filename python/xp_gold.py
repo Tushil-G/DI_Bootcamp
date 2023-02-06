@@ -34,4 +34,4 @@ if month==11:
 if month==12:
     print("dec")    
 else:
-    print("nope")
+    print("nope bruh their's only 12 months")
