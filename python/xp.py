@@ -10,8 +10,8 @@ print((x^3)*8)
 # "3" > 3# false/0/error
 #"Hello" == "hello"#false/0
 #excercise 4
-computer_brand="I have a <computer_brand> computer"
-print(computer_brand)
+mac="mac"
+print(f'i have a {mac} as a computer brand')
 #excercise 5
 age="20"
 name="Tushil"
