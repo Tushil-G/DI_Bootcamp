@@ -10,7 +10,7 @@ print((x^3)*8)
 5 < 3 # false/0
 3 == 3 # true/1
 3 == "3" # false/0
-# "3" > 3# false/0
+# "3" > 3# false/0/error
 #"Hello" == "hello"#false/0
 #excercise 4
 computer_brand="I have a <computer_brand> computer"
