@@ -18,9 +18,12 @@ name="Tushil"
 shoe_size="idk"
 info=print("my name is:", name ," my age is:",age , "my shoe size is:",shoe_size)
 #excercise 6
-a="hello"
-b="world"
-print(f'{a}' +' '+b)#Simpler version print(a, b)
+a=int(input("num A: "))
+b=int(input("num B: "))
+if a>b:
+    print("hello world")
+else:
+    print("B is bigger")
 #excercise 7
 x=int(input("enter a number: "))
 if x%2==0:
