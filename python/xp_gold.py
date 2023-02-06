@@ -1,6 +1,6 @@
 #excercise 1
-print("hello world "*3)
-print("i love python "*3)
+print("hello world "*3,"i love python "*3)
+
 #excercise 2
 month=int(input("enter month in num: "))
 if month in (range(0,12)):
