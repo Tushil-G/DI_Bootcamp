@@ -1,0 +1,18 @@
+label{background-color: rgb(152, 52, 19);}
+input{background-color: coral;}
+button{
+    height: 35px;
+    background-color: orange;
+    outline: black;
+    box-shadow: 0 3px #999;
+  }
+  button{background-color: rgb(255, 98, 0)
+    ;
+  ;
+  }
+  button:active{
+    background-color: rgb(245, 73, 0);
+    box-shadow: 0 2px #666
+    ;transform: translateY(4px);
+  }
+  body{background-color: chocolate;}
