@@ -2,7 +2,7 @@
 print("Hello word "* 4)
 #ecercise_2
 x=99
-print((x^3)*8)
+print((x**3)*8)
 #excercise 3
 5 < 3 # false/0
 3 == 3 # true/1
@@ -31,7 +31,7 @@ if x%2==0:
 else:
     print("odd")
 #excercise 8
-nom=str(input("Enter your name: "))
+nom=input("Enter your name: ")
 if nom=="Tushil":
     print("bruh")
 else:
