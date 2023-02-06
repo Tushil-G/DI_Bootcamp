@@ -29,5 +29,15 @@ if month==11:
     print("nov")
 if month==12:
     print("dec")    
-else:
+if month==3 and month<6:
+    print("the season of the month is spring")
+if month==6 and month<9:
+    print("the season of the month is summer")
+if month==9 and month<11:
+    print("the season of the month is Autum")
+if month==11 and month==12 and month==1 and month==2 and month==3:
+    print("the season of the month is winter")
+elif month>12:
     print("Nah bruh their's only 12 months")
+
+
