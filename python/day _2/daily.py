@@ -2,7 +2,7 @@ num=int(input("enter number: "))
 len=int(input("enter length: "))
 for i in range(len):
    i+=1
-   print(f'{i}*{num}={num*i}')
+   print(f'{i}x{num}={num*i}')
 # part 2
 string=input("Enter string: ")
 p=""
