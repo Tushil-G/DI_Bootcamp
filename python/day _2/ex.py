@@ -5,5 +5,5 @@ list1[replace]=200
 print(list1)
 #replace all
 str(list1)
-replace=[200 if item ==20 else item for  item in list1]
-print(replace)
+replace1=[200 if item ==20 else item for  item in list1]
+print(replace1)
