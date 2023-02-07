@@ -3,8 +3,8 @@ if len(msg)<10 :
     print("more letters plz")
 if len(msg)>10:
     print("too long")
-for i in range(len(msg)):
-    print(msg[i])
+else:
+    print(msg[0],msg[-1])
     x=" "
 for y in msg:
     x+=y
