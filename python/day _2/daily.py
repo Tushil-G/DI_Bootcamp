@@ -1,9 +1,14 @@
 num=int(input("enter number: "))
-len=int(input("enter length: "))
-for i in range(len):
+lens=int(input("enter length: "))
+list=[]
+for i in range(lens):
    i+=1
-   print(f'{i}x{num}={num*i}')
-# part 2
+   multiplication=(f'{i}x{num}={num*i}')
+   list.append(multiplication)
+print(list)
+  
+
+# # part 2
 string=input("Enter string: ")
 p=""
 for char in string:
@@ -12,7 +17,8 @@ for char in string:
 print(p)#removes all duplicates
 y=''
 for x in string:
-    if y=='' or x != y [ len(y)-1]:
+    if y=='' or x!= y [ len(y)-1]:
      y=y+x
-print(y)#removes all duplicates
+print(y)#removes all duolicates
+
 
