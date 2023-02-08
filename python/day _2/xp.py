@@ -37,12 +37,12 @@
 #         print(f'these numbers are even {x}')
 
  #excercise 6
-nom=""
-while nom !="tushil":
-    nom=input("enter name plz: ")
-    nom=nom.lower()
-else:
-    print("you finally remebered your name")
+# nom=""
+# while nom !="tushil":
+#     nom=input("enter name plz: ")
+#     nom=nom.lower()
+# else:
+#     print("you finally remebered your name")
 # excercise 7
 
 # fav_fruit=input("what is your favorite fruit {plz add a space between each fruit}: ")
