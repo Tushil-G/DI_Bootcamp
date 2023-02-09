@@ -19,6 +19,6 @@ y=''
 for x in string:
     if y=='' or x!= y [ len(y)-1]:
      y=y+x
-print(y)#removes all duolicates/but not after another charater
+print(y)#removes all duplicates/but not after another charater
 
 

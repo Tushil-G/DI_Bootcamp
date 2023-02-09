@@ -55,6 +55,85 @@
 #     print("You chose a new fruit. I hope you enjoy")
 
 # excercise 8
+# top=0
+# while True:
+    
+#     topping=input("What do you want as topping//type quit to quit: ")
+#     top+=1
+#     if topping=="quit":
+#         x=top*2.5
+#         print("Total price for pizza is: ",(x-2.5)+10)
+#         break
+
+# #sentence=input("input: ")#time challenge 2
+# #re=' '.join(sentence.split()[::-1])
+# #print(re)
+#time challenge 1
+# x=int(input("is_this number a perfect number: "))
+# s=0
+# for i in range(1,x):
+#     if x%i==0:
+#         s=s+i    
+# if x==s:
+#     print("True")
+# else:
+#  print("False")
+
+#excercise 9
+#if age <3
+#output(0)
+#if age>3 and  <12
+#output(10)
+#if age>13
+#output(15)
+#input age
+#total=ticket+total
+#     ex    #
+# age=-1
+# price=[]
+# while age!=0:
+#     age=int(input("what is your age"))
+#     if age<=3:
+#         price.append(0)
+#     elif age<3 and age>=12:
+#         price.append(10)
+#     elif age>12:
+#         price.append(15)
+#     elif age==0:
+#         break
+# print(f"Total price: {sum(price)}")
+# teenagers=int(input("how many people are their? "))
+# nameAllow=[]
+# for i in range(teenagers):
+#   name=input("what is your name: ")
+#   Age=int(input("what is your age? ".format(name)))
+#   if Age>=16 and Age<=21:
+#     nameAllow.append(name)
+# print("Final list ",nameAllow)
+# excercise 10
+sandwich_orders = ["Tuna sandwich", "Pastrami sandwich", "Avocado sandwich", "Pastrami sandwich" ,"Egg sandwich", "Sabih sandwich", "Pastrami sandwich"]
+finished_sandwiches =[]
+for i in sandwich_orders:
+    finished_sandwiches.append(sandwich_orders)
+    print(f'i made your {i}')
+while "Pastrami sandwich" in sandwich_orders:
+    sandwich_orders.remove("Pastrami sandwich")
+    for x in sandwich_orders:
+     print(f'we have your {x}')#let it run at least 3 times
+    
+print("we ran out of pastrami sandwi")
+
+
+
+
+
+
+   
+     
+
+     
+               
+
 
 
 
