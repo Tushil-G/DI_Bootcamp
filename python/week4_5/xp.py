@@ -128,7 +128,7 @@ if __name__ == "__main__":
 # Using the while function in Python for adding multiple series of games until the players call it an exit.
     while True:  
 # Menu displayed to the players
-        print(player_current)  
+        print(player_current, "turn")  
         print("Please press 1 for X")  
         print("Please press 2 for O")  
         print("Please press 3 for Exit") 
