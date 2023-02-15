@@ -132,7 +132,7 @@ if __name__ == "__main__":
         print("Please press 1 for X")  
         print("Please press 2 for O")  
         print("Please press 3 for Exit") 
-# if wrong integer is pressed invalid and try again 
+# if wrong integer is pressed invalid and try again //
         try:  
             the_choice = int(input())     
         except ValueError:  
