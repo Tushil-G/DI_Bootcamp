@@ -1,17 +1,15 @@
 def board(value):  
-    print("\n")  
-    print("\t      |      |")  
-    print("\t    {} |  {}   |  {}".format(value[0], value[1], value[2]))  
-    print('\t______|______|______')  
-# printing the first three boxes of the 3X3 game board   
-    print("\t      |      |") 
-    print("\t   {}  |  {}   |  {}".format(value[3], value[4], value[5]))  
-    print('\t______|______|______')  
-    print("\t      |      |")  
-# printing the second three boxes of the 3X3 game board   
-    print("\t  {}   |  {}   |  {}".format(value[6], value[7], value[8]))  
-    print("\t      |      |")  
-    print("\n") 
+    print("\t**********************")  
+    print("\t*      |      |      *")  
+    print("\t*     {}|  {}   | {}    *".format(value[0], value[1], value[2]))  
+    print('\t* _____|______|_____ *')  
+    print("\t*      |      |      *") 
+    print("\t*    {} |  {}   | {}    *".format(value[3], value[4], value[5]))  
+    print('\t* _____|______|_____ *')  
+    print("\t*      |      |      *")    
+    print("\t*   {}  |  {}   | {}    *".format(value[6], value[7], value[8]))  
+    print("\t*      |      |      *")  
+    print("\t**********************")
 # printing the last three boxes of the 3X3 game board   
  
 #To Design the Scoreboard
