@@ -51,3 +51,15 @@ while(a==1):
     print(d)
     a=int(input("Enter 1 to deal the cards (or) any key to discontinue \n"))
 print(d.shuffle())
+
+
+#part 1 
+# What is a class?it is a outline to create object
+# What is an instance?An object 
+# What is encapsulation?wrapping data and methods that work on data within one unit
+# What is abstraction?A process of handling complex things by hiding unnecessary information from the user
+# What is inheritance?A class that allows all methods to inherit proprties from another class
+# What is multiple inheritance?A class that derives from multiple/more than one base class
+# What is polymorphism?A method in child class that have the same name as the method of parent class
+# What is method resolution order or MRO?A hierarchy of classes
+
