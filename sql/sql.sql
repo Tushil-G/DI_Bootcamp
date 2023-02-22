@@ -16,6 +16,7 @@
 -- VALUES('mars','Cooney','02/12/1900', 90);
 -- INSERT INTO actors (first_name, last_name, age, number_oscars)
 -- VALUES('George','Clooney','06/05/1961', 2),('wan','james','03/05/2022',8),('ben','fame','04/12/2000',9);
+--SELECT * FROM CHARACTER
 
 SELECT COUNT (*) FROM actors;
 
