@@ -27,7 +27,7 @@ VALUES('small Desk',100),
 
 SELECT * FROM items
 SELECT *FROM items where item_Price>80
-SELECT * FROM customers where last_name ='Smith'--It might output null
+SELECT * FROM customers where last_name ='Smith'--It might output null or error
 SELECT * FROM customers where last_name ='Jones'
 SELECT * FROM customers where last_name <>'Jone'
 
