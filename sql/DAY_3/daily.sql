@@ -15,7 +15,10 @@ CREATE TABLE Customer_Profile(
 
 SELECT * FROM customer
 SELECT table_name,column_name,data_type FROM information_schema.columns WHERE table_name='customer_profile'
-INSERT INTO Customer(first_name,last_name) VALUES ('Jhon','Doe'),('Jerome','Lalu'),('lea','Rive');
+INSERT INTO Customer(first_name,last_name) 
+VALUES ('Jhon','Doe'),
+       ('Jerome','Lalu'),
+       ('lea','Rive');
 
 
 INSERT INTO Customer_Profile (isLoggedIn, customer_id) 
