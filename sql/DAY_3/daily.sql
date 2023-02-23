@@ -1,3 +1,5 @@
+CREATE DATABASE Customer;
+
 CREATE TABLE Customer(
 	id SERIAL PRIMARY KEY,
 	first_name VARCHAR (100),
