@@ -22,5 +22,5 @@
 SELECT COUNT (*) FROM actors;
 
 
-//ex2//--Count will be incremented by 1
+--ex2 Count will be incremented by 1
 
